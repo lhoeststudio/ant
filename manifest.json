@@ -1,0 +1,21 @@
+{
+"manifest_version":3,
+"version":"1.0.0",
+"name":"Ant",
+"description":"Removes subscriber numbers on YouTube",
+"icons": {
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+},
+"content_scripts":[
+    {
+        "matches": [
+            "*://youtube.com/*",
+            "*://www.youtube.com/*",
+            "*://m.youtube.com/*"
+        ],
+        "js":["scripts/main.js"],
+        "run_at": "document_idle"
+    }
+    ]
+}
