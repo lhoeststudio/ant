@@ -1,7 +1,7 @@
 {
 "manifest_version":3,
 "version":"1.1.1",
-"name":"Clean View",
+"name":"Independent View",
 "description":"Removes subscriber numbers on YouTube",
 "icons": {
     "48": "images/icon48.png",
